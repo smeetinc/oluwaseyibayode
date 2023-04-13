@@ -1,6 +1,7 @@
 import Header from '@/components/Header'
 import './globals.css'
 import Providers from './Providers'
+import Navbar from '@/components/Navbar'
 
 export const metadata = {
   title: 'Oluwaseyi',
@@ -17,7 +18,9 @@ export default function RootLayout({ children }) {
         {/* Header */}
         <Header />
 
-        {/* NavBar */}
+        {/* Navbar */}
+
+        <Navbar />
 
         {/* SearchBox */}
         
