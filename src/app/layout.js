@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import './globals.css'
 import Providers from './Providers'
 import Navbar from '@/components/Navbar'
+import SearchBox from '@/components/searchBox'
 
 export const metadata = {
   title: 'Oluwaseyi',
@@ -23,6 +24,8 @@ export default function RootLayout({ children }) {
         <Navbar />
 
         {/* SearchBox */}
+
+        <SearchBox />
         
         
         
